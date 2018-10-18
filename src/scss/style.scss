@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#section-1{
+    background: url(https://bit.ly/2OBzbUX);
+    height:750px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    div{
+        margin:0 0 0 377px;
+        padding: 222px 0 0 0;
+        text-align: center;
+        width: 622px;
+        .s1-waitingfor{
+            font-family: Raleway; 
+            font-size: 18px;
+            text-transform: uppercase;
+            color: #383838;
+        }
+        .s1-becreative{
+            font-family: Raleway;
+            font-weight: bolder;
+            font-size: 64px;
+            color: #383838;
+        }
+        .s1-startuprr{
+            text-decoration: underline;
+            color: #e4e4e4;
+            background-color: #333333; 
+            border-radius: 5px;
+            padding: 13px;
+            margin:0 0 49px 0;
+            .startuprr{
+                .greenS{
+                    color: #00a99d;
+                }
+                font-family: Raleway;
+                font-weight: bolder;
+                font-size: 17.22px;
+            }
+            .nextgenupper{
+                text-transform: uppercase;
+                font-family: Raleway;
+                font-weight: 18.23px;
+            }
+
+        }
+        .s1-startdoing{
+            text-transform: uppercase;
+            font-family: Raleway;
+            font-weight: bold;
+            color:#333333;
+            font-size: 26px;
+            padding: 0 0 50px 0;
+            .greenstart{
+                color:#00a99d;
+            }
+        }
+        .s1-downchevron{
+            color:#00a99d;
+            font-size: 60px;
+          
+        }
+    }
+}
+#section-2{
+    height:662px;
+    width: 100%;
+    background-color: #f9f9f9;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color:#606060;
+    .s2-navbar{
+        display:grid;
+        grid-template-columns: 478px 81px 115px 77px 84px 108px 119px 109px;
+        height: 100px;
+        width: 1169px;
+        margin: 0 auto;
+        padding: 45px 0 0 0;
+        .s2-search{
+            float: right;
+            color:#00a99d;
+        }
+    }
+    .s2-whatweoffer{
+        text-align: center;
+        text-transform: uppercase;
+        font-size:26px;
+        .offergreen{
+            color:#00a99d;
+        }
+    }
+    .s2-weofferour{
+        padding: 20px 0 50px 0;
+        text-align: center;
+        color:#8a8a8a;
+        font-weight: 16px;
+    }
+    .s2-icongrid{
+        display: grid;
+        grid-template-columns: 370px 370px 370px;
+        margin:510px 0 0 0;
+    }
+}
+#section-3{
+    height:619px;
+    width: 100%;
+    background-color:grey;
+}
+#section-4{
+    height:479px;
+    width: 100%;
+    background-color:grey;
+}
+#section-5{
+    height:403px;
+    width: 100%;
+}
+#section-6{
+    height:881px;
+    width: 100%;
+    background-color:grey;
+}
+#section-7{
+    height:403px;
+    width: 100%;
+}
+#section-8{
+    height:80px;
+    width: 100%;
+    background-color:grey;
+}
+#section-9{
+    height:702px;
+    width: 100%;
+}
+#section-10{
+    height:310px;
+    width: 100%;
+    background-color:grey;
+}
+#section-11{
+    height:260px;
+    width: 100%;
+}
+#section-12{
+    height:725px;
+    width: 100%;
+    background-color:grey;
+}
+#section-13{
+    height:170px;
+    width: 100%;
+}
+#section-14{
+    height:277px;
+    width: 100%;
+    background-color:grey;
+}
+#section-15{
+    height:499px;
+    width: 100%;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color:grey;
+}
