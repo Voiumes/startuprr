@@ -102,7 +102,7 @@
         div{
             padding: 45px 0 0 0;
             a{
-                transition:.5s;
+                transition:.3s;
                 padding: 10px;
                 &:hover{
                    color:white;
@@ -909,13 +909,13 @@ footer{
             color:#dfdfdf;
             font-size: 28px;
             transform: rotate(-45deg);
-            padding: 10px 11px 0 0;
+            padding: 9px 10px 0 0;
         
         }
     }
     h1{
         padding: 56px 0 0 0;
         color: #aaaaaa;
-        font-size: 24px;
+        font-size: 20px;
     }
 }
