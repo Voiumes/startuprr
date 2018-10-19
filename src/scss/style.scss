@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    scroll-behavior: smooth;
 }
 
 #section-1{
@@ -730,5 +731,173 @@
                     }
                 }
             }
+    }
+}
+#section-7{
+    height:170px;
+    width: 100%;
+    background-color: #8a8a8a;
+    font-family: Raleway;
+   
+    .s7-grid{
+        padding: 64px 0 0 0;
+        display:grid;
+        grid-template-columns: 490px auto;
+        width: 1170px;
+        margin: 0 auto;
+        .s7-unique{
+            font-size: 26px;
+            font-weight: 800;
+            color: #383838;
+            line-height: 1.5em;
+            i{
+                color:#00a99d;
+            }
+        }
+        .purchasenow{
+            a{
+                float: right;
+                text-decoration: none;
+                font-size: 13px;
+                font-weight: 700;
+                background-color: #00a99d;
+                padding: 14px;
+                border-radius: 5px;
+                color: #e7e7e7;
+            }
+            
+        }
+    }
+
+}
+#section-8{
+    height:275px;
+    width: 100%;
+    background-color: #383838;
+    font-family: Raleway;
+   .s8-img{
+       width: 170px;
+       margin: 0 auto;
+       padding: 50px 0 50px 0;
+        img{
+                height: 42px;
+                width: auto;
+            }
+   }
+   .s8-grid{
+       width: 545px;
+       margin:0 auto;
+       display: grid;
+       grid-template-columns: 44px 44px 44px 44px 44px 44px 44px 44px 44px 44px 44px;
+       grid-column-gap: 6px;
+       div{
+           text-align: center;
+           height: 44px;
+           box-sizing: border-box;
+           border: 1px solid #e7e7e7;
+           border-radius: 8px;
+           color: #e4e4e4;
+           transition: .3s;
+           a{
+               color: #e4e4e4
+           }
+           i{
+               font-size: 24px;
+               padding: 8px 0 0 0;
+           }
+           &:hover{
+               background: #00a99d;
+               border: 1px solid #00a99d;
+           }
+
+       }
+   }
+    
+}
+#section-9{
+   
+    height: 500px;
+    background: url(https://bit.ly/2CVbMYn);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .s9-form{
+        top:20%;
+        left: 20%;
+        position: absolute;
+        width: 370px;
+        height: 338px;
+        border: solid 1px #dadada;
+        border-radius: 5px;
+        background: #f9f9f9;
+        margin: 4 0 0 20%;
+        text-align: center;
+        input{
+            width: 328px;
+            max-width: 328px;
+            margin:20px auto 0 auto;
+            height: 40px;
+            padding: 0 0 0 20px;
+            box-sizing: border-box;
+            border: 1px solid #dfdfdf;
+            &::placeholder { 
+                color: #aaaaaa;
+                font-style: italic;
+            }
+        }
+        textarea{
+            margin: 20px 0 0 0;
+            padding: 10px;
+            height: 120px;
+            max-height: 120px;
+            max-width: 328px;
+            width: 328px;
+            box-sizing: border-box;
+            border:1px solid #dfdfdf;
+        }
+        button{
+            margin: 15px 0 0 0;
+            width: 328px;
+            font-family: Raleway;
+            font-weight: 600;
+            color: #e4e4e4;
+            text-transform: uppercase;
+            font-size: 16px;
+            background: #00a99d;
+            border: none;
+            border-radius: 4px;
+            padding: 12px;
+        }
+    }
+}
+footer{
+    position: relative;
+    font-family: Raleway;
+    height: 100px;
+    background:#333333;
+    text-align: center;
+    a{
+        position: absolute;
+        top:-25px;
+        left:48%;
+        height: 50px;
+        width: 50px;
+        background: #00a99d;
+        transform: rotate(45deg);
+        text-align: center;
+        i{
+            color:#dfdfdf;
+            font-size: 28px;
+            transform: rotate(-45deg);
+            padding: 10px 11px 0 0;
+        
+        }
+    }
+    h1{
+        padding: 56px 0 0 0;
+        color: #aaaaaa;
+        font-size: 24px;
     }
 }
