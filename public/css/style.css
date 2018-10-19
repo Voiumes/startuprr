@@ -437,51 +437,160 @@
       text-align: center; }
 
 #section-6 {
-  height: 881px;
-  width: 100%;
-  background-color: grey; }
-
-#section-7 {
-  height: 403px;
-  width: 100%; }
-
-#section-8 {
-  height: 80px;
-  width: 100%;
-  background-color: grey; }
-
-#section-9 {
-  height: 702px;
-  width: 100%; }
-
-#section-10 {
-  height: 310px;
-  width: 100%;
-  background-color: grey; }
-
-#section-11 {
-  height: 260px;
-  width: 100%; }
-
-#section-12 {
   height: 725px;
   width: 100%;
-  background-color: grey; }
-
-#section-13 {
-  height: 170px;
-  width: 100%; }
-
-#section-14 {
-  height: 277px;
-  width: 100%;
-  background-color: grey; }
-
-#section-15 {
-  height: 499px;
-  width: 100%; }
-
-footer {
-  height: 100px;
-  width: 100%;
-  background-color: grey; }
+  background-color: #f9f9f9;
+  font-family: Raleway; }
+  #section-6 .s6-header {
+    padding: 80px 0 19px 0;
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase; }
+    #section-6 .s6-header span {
+      color: #00a99d; }
+  #section-6 .s6-weoffer {
+    color: #8a8a8a;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 0 73px 0; }
+  #section-6 .s6-grid {
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-column-gap: 30px;
+    width: 1170px;
+    margin: 0 auto;
+    max-height: 438px;
+    height: 438px; }
+    #section-6 .s6-grid div {
+      border: 1px solid #dedede;
+      width: 270px;
+      height: 100%;
+      border-radius: 6px;
+      position: relative; }
+      #section-6 .s6-grid div h1 {
+        text-transform: uppercase;
+        font-size: 13px;
+        color: #e7e7e7;
+        padding: 15px;
+        box-sizing: border-box;
+        position: absolute;
+        display: block;
+        background-color: #383838;
+        width: auto;
+        border-radius: 4px;
+        top: -24px;
+        left: 68px;
+        text-align: center; }
+      #section-6 .s6-grid div p {
+        border-bottom: #e7e7e7 solid 1px;
+        width: 80%;
+        margin: 0 auto 25px auto;
+        padding: 0 0 20px 0; }
+      #section-6 .s6-grid div h6 {
+        text-align: center;
+        color: #8a8a8a;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0 0 25px 0; }
+      #section-6 .s6-grid div .signup {
+        border-top: #e7e7e7 solid 1px;
+        padding: 25px 0 0 0;
+        width: 80%;
+        margin: 0 auto; }
+        #section-6 .s6-grid div .signup h2 {
+          text-transform: uppercase;
+          font-size: 13px;
+          font-weight: 700;
+          width: 95px;
+          text-align: center;
+          background-color: #00a99d;
+          margin: 0 auto;
+          color: #e7e7e7;
+          padding: 12px;
+          border-radius: 5px; }
+    #section-6 .s6-grid .deal1 .deal1-price {
+      margin-top: 22px;
+      position: relative;
+      text-align: center;
+      color: #383838;
+      font-size: 60px;
+      font-weight: bold; }
+      #section-6 .s6-grid .deal1 .deal1-price .dollar {
+        font-size: 16px;
+        font-weight: 500;
+        color: #8a8a8a; }
+      #section-6 .s6-grid .deal1 .deal1-price .cents {
+        position: absolute;
+        font-size: 16px;
+        top: 10px;
+        left: 115px; }
+      #section-6 .s6-grid .deal1 .deal1-price .monthly {
+        font-size: 16px;
+        font-weight: 500;
+        color: #8a8a8a; }
+    #section-6 .s6-grid .deal2 h1 {
+      background-color: #00a99d; }
+    #section-6 .s6-grid .deal2 .deal2-price {
+      margin-top: 22px;
+      position: relative;
+      text-align: center;
+      color: #383838;
+      font-size: 60px;
+      font-weight: bold; }
+      #section-6 .s6-grid .deal2 .deal2-price .dollar {
+        font-size: 16px;
+        font-weight: 500;
+        color: #8a8a8a; }
+      #section-6 .s6-grid .deal2 .deal2-price .cents {
+        position: absolute;
+        font-size: 16px;
+        top: 10px;
+        left: 115px; }
+      #section-6 .s6-grid .deal2 .deal2-price .monthly {
+        font-size: 16px;
+        font-weight: 500;
+        color: #8a8a8a; }
+    #section-6 .s6-grid .deal3 h1 {
+      left: 48px; }
+      #section-6 .s6-grid .deal3 h1 i {
+        color: #00a99d; }
+    #section-6 .s6-grid .deal3 .deal3-price {
+      margin-top: 22px;
+      position: relative;
+      text-align: center;
+      color: #383838;
+      font-size: 60px;
+      font-weight: bold; }
+      #section-6 .s6-grid .deal3 .deal3-price .dollar {
+        font-size: 16px;
+        font-weight: 500;
+        color: #8a8a8a; }
+      #section-6 .s6-grid .deal3 .deal3-price .cents {
+        position: absolute;
+        font-size: 16px;
+        top: 10px;
+        left: 115px; }
+      #section-6 .s6-grid .deal3 .deal3-price .monthly {
+        font-size: 16px;
+        font-weight: 500;
+        color: #8a8a8a; }
+    #section-6 .s6-grid .deal4 .deal4-price {
+      margin-top: 22px;
+      position: relative;
+      text-align: center;
+      color: #383838;
+      font-size: 60px;
+      font-weight: bold; }
+      #section-6 .s6-grid .deal4 .deal4-price .dollar {
+        font-size: 16px;
+        font-weight: 500;
+        color: #8a8a8a; }
+      #section-6 .s6-grid .deal4 .deal4-price .cents {
+        position: absolute;
+        font-size: 16px;
+        top: 10px;
+        left: 115px; }
+      #section-6 .s6-grid .deal4 .deal4-price .monthly {
+        font-size: 16px;
+        font-weight: 500;
+        color: #8a8a8a; }
