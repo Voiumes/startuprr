@@ -52,6 +52,12 @@
       padding: 0 0 50px 0; }
       #section-1 div .s1-startdoing .greenstart {
         color: #00a99d; }
+      #section-1 div .s1-startdoing i {
+        color: #00a99d;
+        font-size: 26px;
+        line-height: normal;
+        vertical-align: top;
+        transform: scale(0.3); }
     #section-1 div .s1-downchevron {
       color: #00a99d;
       font-size: 60px; }
@@ -85,7 +91,7 @@
     #section-2 .s2-navbar div {
       padding: 45px 0 0 0; }
       #section-2 .s2-navbar div a {
-        transition: .5s;
+        transition: .3s;
         padding: 10px; }
         #section-2 .s2-navbar div a:hover {
           color: white;
@@ -100,6 +106,13 @@
     font-size: 26px; }
     #section-2 .s2-whatweoffer .offergreen {
       color: #00a99d; }
+    #section-2 .s2-whatweoffer i {
+      color: #00a99d;
+      font-size: 26px;
+      line-height: normal;
+      vertical-align: top;
+      transform: scale(0.3);
+      opacity: .2; }
   #section-2 .s2-weofferour {
     padding: 20px 0 50px 0;
     text-align: center;
@@ -259,6 +272,13 @@
     color: whitesmoke; }
     #section-3 .amazingfeatures span {
       color: #00a99d; }
+    #section-3 .amazingfeatures i {
+      color: #00a99d;
+      font-size: 26px;
+      line-height: normal;
+      vertical-align: top;
+      transform: scale(0.3);
+      opacity: .2; }
   #section-3 p {
     font-family: Raleway;
     font-weight: bold;
@@ -414,6 +434,13 @@
     font-size: 26px; }
     #section-5 .ourpowerful span {
       color: #00a99d; }
+    #section-5 .ourpowerful i {
+      color: #00a99d;
+      font-size: 26px;
+      line-height: normal;
+      vertical-align: top;
+      transform: scale(0.3);
+      opacity: .2; }
   #section-5 .s5-weregood {
     color: #8a8a8a;
     font-weight: 500;
@@ -464,6 +491,13 @@
     text-transform: uppercase; }
     #section-6 .s6-header span {
       color: #00a99d; }
+    #section-6 .s6-header i {
+      color: #00a99d;
+      font-size: 26px;
+      line-height: normal;
+      vertical-align: top;
+      transform: scale(0.3);
+      opacity: .2; }
   #section-6 .s6-weoffer {
     color: #8a8a8a;
     text-align: center;
