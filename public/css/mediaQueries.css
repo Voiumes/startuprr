@@ -254,6 +254,7 @@
       margin: 0 auto; }
     #section-3 .amazingfeatures {
       width: 90%;
+      margin: 0 auto;
       padding: 75px 0 19px 0;
       text-align: center;
       text-transform: uppercase;
@@ -261,12 +262,7 @@
       #section-3 .amazingfeatures span {
         color: #00a99d; }
       #section-3 .amazingfeatures i {
-        color: #00a99d;
-        font-size: 26px;
-        line-height: normal;
-        vertical-align: top;
-        transform: scale(0.3);
-        opacity: .2; }
+        display: none; }
     #section-3 p {
       font-family: Raleway;
       font-weight: bold;
@@ -274,7 +270,7 @@
       color: #606060;
       font-size: 14px; }
     #section-3 .s3-grid {
-      width: 80%;
+      width: 70%;
       margin: 0 auto;
       display: grid;
       grid-template-columns: 1fr; }
@@ -282,7 +278,7 @@
         margin: 91px 0 0 0; }
         #section-3 .s3-grid .s3-features .feature1 {
           display: grid;
-          grid-template-columns: 75px 262px; }
+          grid-template-columns: 75px 202px; }
           #section-3 .s3-grid .s3-features .feature1 i {
             color: #00a99d;
             font-size: 40px; }
@@ -299,7 +295,7 @@
         #section-3 .s3-grid .s3-features .feature2 {
           padding: 65px 0 0 0;
           display: grid;
-          grid-template-columns: 75px 262px; }
+          grid-template-columns: 75px 202px; }
           #section-3 .s3-grid .s3-features .feature2 i {
             color: #00a99d;
             font-size: 40px; }
@@ -316,7 +312,7 @@
         #section-3 .s3-grid .s3-features .feature3 {
           padding: 65px 0 0 0;
           display: grid;
-          grid-template-columns: 75px 262px; }
+          grid-template-columns: 75px 202px; }
           #section-3 .s3-grid .s3-features .feature3 i {
             color: #00a99d;
             font-size: 40px; }

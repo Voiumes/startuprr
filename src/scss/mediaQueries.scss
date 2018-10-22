@@ -309,6 +309,7 @@ and (max-width : 662px) {
         }
         .amazingfeatures{ 
             width: 90%;
+            margin: 0 auto;
             padding: 75px 0 19px 0;
             text-align: center;
             text-transform: uppercase;
@@ -317,12 +318,7 @@ and (max-width : 662px) {
                 color:#00a99d;
             }
             i{ 
-                color: #00a99d;
-                font-size: 26px;
-                line-height: normal;
-                vertical-align: top;
-                transform: scale(.3);
-                opacity: .2;
+                display: none;
             }
         }
         p{
@@ -333,7 +329,7 @@ and (max-width : 662px) {
             font-size: 14px;
         }
         .s3-grid{
-            width:80%;
+            width:70%;
             margin: 0 auto;
             display: grid;
             grid-template-columns: 1fr;
@@ -342,7 +338,7 @@ and (max-width : 662px) {
                 .feature1{ 
                     
                     display:grid;
-                    grid-template-columns: 75px 262px;
+                    grid-template-columns: 75px 202px;
                     i{ 
                         color:#00a99d;
                         font-size: 40px;
@@ -364,7 +360,7 @@ and (max-width : 662px) {
                 .feature2{ 
                     padding: 65px 0 0 0;
                     display:grid;
-                    grid-template-columns: 75px 262px;
+                    grid-template-columns: 75px 202px;
                     i{ 
                         color:#00a99d;
                         font-size: 40px;
@@ -386,7 +382,7 @@ and (max-width : 662px) {
                 .feature3{ 
                     padding: 65px 0 0 0;
                     display:grid;
-                    grid-template-columns: 75px 262px;
+                    grid-template-columns: 75px 202px;
                     i{ 
                         color:#00a99d;
                         font-size: 40px;
